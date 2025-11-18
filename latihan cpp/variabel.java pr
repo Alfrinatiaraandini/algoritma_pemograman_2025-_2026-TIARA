@@ -1,0 +1,22 @@
+public class Variabel {
+    public static void main(String[] args) {
+        // Deklarasi variabel dengan tipe data yang sesuai
+        String namaLengkap = "Alfrina tiara andini";
+        String tempatTanggalLahir = "bandung, 02 juli 2006";
+        String jenisKelamin = "perempuan";
+        String alamatLengkap = "Jl. Melati No. 45, Bandung";
+        String noHp = "085624747548";
+        double penghasilanSebulan = 3500000.00; // tipe data double untuk angka desimal
+
+        // Menampilkan output sesuai format tugas
+        System.out.println("Assalamu’alaikum");
+        System.out.println("Izinkan saya memperkenalkan diri");
+        System.out.println("Nama Lengkap       : " + namaLengkap);
+        System.out.println("Tempat & Tanggal Lahir : " + tempatTanggalLahir);
+        System.out.println("Jenis Kelamin      : " + jenisKelamin);
+        System.out.println("Alamat Lengkap     : " + alamatLengkap);
+        System.out.println("No Hp              : " + noHp);
+        System.out.println("Penghasilan Sebulan: Rp " + penghasilanSebulan);
+    }
+}
+
